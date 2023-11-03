@@ -15,6 +15,7 @@
  */
 class Solution {
     public int averageOfSubtree(TreeNode root) {
+        // Post order traversal
         int res = 0;
         HashMap<TreeNode, List<Integer>> m = new HashMap<>();
         Stack<Object[]> st = new Stack<>();
